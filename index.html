@@ -1,0 +1,41 @@
+<html><head>
+	<title>Convidados para Evento</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Tmain.js"></script>
+</head>
+
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; "> Lista de Convidados </h3>
+
+<div id="rows">
+
+<input type="text" placeholder="Insira o nome do convidado" id="input">
+<button onclick="add()" id="Enviar"> Enviar </button>
+
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<br>
+
+<div id="mostrarNome">
+</div>
+<br>
+	<div id="Show">
+		<h3 id="hd">Lista de Convidados</h3>
+		<button onclick="mostrar()" id="mostrar">Mostrar</button>
+		<p id="p1"></p>
+	</div>
+	
+<br>
+
+<button onclick="organizar()" id="organizar"> Lista Organizada </button>
+	<div id="organizado"></div>
+    </div>
+	<br>
+	<input type="text" placeholder="Pesquisar Nome" id="s1">&nbsp;
+	<button onclick="pesquisar()" id="pesq">Pesquisar</button>
+	<p id="p2"></p>
+</center>
+		
+</body>
+</html>

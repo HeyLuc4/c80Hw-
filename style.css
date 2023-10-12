@@ -1,0 +1,19 @@
+button {
+	border-radius: 1101px;
+	border-width: 1px;
+	background: radial-gradient(#A682FF,#715AFF,#5887FF);
+	color:rgb(221, 255, 159);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: medium;
+}
+
+body{
+	background: radial-gradient(#3e6b4f,#5ca35e,#88aa85);
+	font-size: large;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+	font-size: x-large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
